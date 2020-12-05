@@ -36,8 +36,8 @@
      cmd cd project folder ---> python manage.py test
 #### future improvment
 * Complete test   
- ** using selenium webdriver to simulate user interactivity
- ** improve test design (automating)
+  * using selenium webdriver to simulate user interactivity
+  * improve test pipeline
 * Error handling 
 * Simplify the code in findig relation between films and people  
 
