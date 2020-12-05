@@ -21,13 +21,13 @@ class MovieAPI:
         return film.split('/')[-1]
         
     @classmethod    
-    def parse_peoples(self, peoples):
+    def parse_people(self, people):
         """extract name, films from people"""
         return {
-            'name': peoples.get('name'),
+            'name': people.get('name'),
             'films_id': [
                 self.extract_id_from_url(film) 
-                for film in peoples.get('films')
+                for film in people.get('films')
             ],
 
         }
@@ -42,7 +42,7 @@ class MovieAPI:
         people_data = requests.get(self.base_url+self.PEOPLE).json()
 
         films = [self.parse_films(film) for film in films_data]
-        people = [self.parse_peoples(p) for p in people_data]
+        people = [self.parse_people(p) for p in people_data]
                     
         final_data = films.copy() 
 
