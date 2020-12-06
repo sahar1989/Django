@@ -43,6 +43,6 @@
 
     
 ## Useful Links
-https://docs.djangoproject.com/en/3.1/
-https://docs.djangoproject.com/en/3.1/topics/testing/overview/
+* https://docs.djangoproject.com/en/3.1/
+* https://docs.djangoproject.com/en/3.1/topics/testing/overview/
  
