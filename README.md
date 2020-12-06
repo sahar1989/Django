@@ -34,7 +34,7 @@
      open the browser type ---> 127.0.0.1:8000/movies/ 
 #### How to run test
      cmd cd project folder ---> python manage.py test
-#### future improvment
+#### Future improvment
 * Complete test   
   * using selenium webdriver to simulate user interactivity
   * improve test pipeline
